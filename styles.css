@@ -1,0 +1,28 @@
+.container {
+	display: flex;
+	width: 408px;
+	height: 408px;
+}
+
+.item {
+	width: 126px;
+	height: 126px;
+	margin: 4px;
+	border: 1px solid black;
+}
+
+.row {
+	flex-direction: row;
+}
+.column {
+	flex-direction: column;
+}
+.row.reverse {
+	flex-direction: row-reverse;
+}
+.column.reverse {
+	flex-direction: column-reverse;
+}
+.wrap {
+	flex-wrap: wrap;
+}
